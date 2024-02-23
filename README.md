@@ -1,22 +1,7 @@
-# pygments-css
+## pygments for MediaWiki
 
+This is a fork of [pygments-css](https://github.com/richleland/pygments-css) but intended for use on MediaWiki wikis. As the parent repo is released under the UNLICENSE, attribution is not required.
 
-[Pygments](http://pygments.org), a Python-based code highlighting tool, comes with a set of builtin styles (not css files) for code highlighting. You have to generate a CSS file using the command line.
+The difference from the original is that `.highlight` is replaced by `.mw-highlight`.
 
-You can generate these yourself, but this git repository has already generated them for you.
-
-
-build
------
-
-These css files were generated using pygmentize on the command line like so::
-
-    pygmentize -S default -f html -a .mw-highlight > default.css
-
-You can remove or change the top-level class by removing or modifying `-a .mw-highlight` in the `makefile`.
-
-To regenerate them all with whichever ``pygments`` version you are using, run
-
-    git clone <this repo>
-    cd pygments-css
-    make cssfiles
+My recommendation is to use Monoaki for dark themes.
