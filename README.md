@@ -4,4 +4,4 @@ This is a fork of [pygments-css](https://github.com/richleland/pygments-css) but
 
 The difference from the original is that `.highlight` is replaced by `.mw-highlight`.
 
-My recommendation is to use Monoaki for dark themes.
+My recommendation is to use Dracula for dark themes. If you want a background color where Dracula doesn't work well, try Monokai.
