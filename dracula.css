@@ -1,0 +1,27 @@
+.mw-highlight  {background: #282a36; }
+.mw-highlight .hll { background: hsl(231.82deg 13.92% 23.98%) }
+.mw-highlight .kt { background: hsl(231.82deg 13.92% 23.98%) }
+.mw-highlight .nn { background: hsl(231.82deg 13.92% 23.98%) }
+.mw-highlight .m { color: #bd93f9 }
+.mw-highlight .mb { color: #bd93f9 }
+.mw-highlight .mf { color: #bd93f9 }
+.mw-highlight .mh { color: #bd93f9 }
+.mw-highlight .mi { color: #bd93f9 }
+.mw-highlight .mo { color: #bd93f9 }
+.mw-highlight .nb { color: #8be9fd }
+.mw-highlight .nf { color: #8be9fd }
+.mw-highlight .kc { color: #66d9ef; }
+.mw-highlight .k { color: #66d9ef; }
+.mw-highlight .kp { color: #66d9ef; }
+.mw-highlight .nd { color: #f1fa8c }
+.mw-highlight .s1 { color: #f1fa8c }
+.mw-highlight .s2 { color: #f1fa8c }
+.mw-highlight .sx { color: #f1fa8c }
+.mw-highlight .c { color: #6272a4 }
+.mw-highlight .nc { color: #50fa7b }
+.mw-highlight .nt { color: #cf6a4c; }
+.mw-highlight .linenos { color: darkgrey; }
+.mw-highlight .nv { color:navajowhite; }
+.mw-highlight .o { color: white; }
+.mw-highlight a:hover .linenos, .mw-highlight .hll a .linenos { color: white; }
+.mw-content-ltr.mw-highlight-lines pre, .mw-content-ltr.content .mw-highlight-lines pre { box-shadow: inset 3.25em 0 0 hsl(231.43deg 14.89% 15.43%); /* #282a36/background color but luminocity of 15 instead of 18 */ }
