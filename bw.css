@@ -1,5 +1,10 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 .mw-highlight .hll { background-color: #ffffcc }
-.mw-highlight  { background: #ffffff; }
+.mw-highlight { background: #ffffff; }
 .mw-highlight .c { font-style: italic } /* Comment */
 .mw-highlight .err { border: 1px solid #FF0000 } /* Error */
 .mw-highlight .k { font-weight: bold } /* Keyword */
@@ -9,6 +14,7 @@
 .mw-highlight .c1 { font-style: italic } /* Comment.Single */
 .mw-highlight .cs { font-style: italic } /* Comment.Special */
 .mw-highlight .ge { font-style: italic } /* Generic.Emph */
+.mw-highlight .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .mw-highlight .gh { font-weight: bold } /* Generic.Heading */
 .mw-highlight .gp { font-weight: bold } /* Generic.Prompt */
 .mw-highlight .gs { font-weight: bold } /* Generic.Strong */

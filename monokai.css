@@ -1,26 +1,40 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 .mw-highlight .hll { background-color: #49483e }
-.mw-highlight  { background: #272822; color: #f8f8f2 }
-.mw-highlight .c { color: #75715e } /* Comment */
-.mw-highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.mw-highlight { background: #272822; color: #f8f8f2 }
+.mw-highlight .c { color: #959077 } /* Comment */
+.mw-highlight .err { color: #ed007e; background-color: #1e0010 } /* Error */
+.mw-highlight .esc { color: #f8f8f2 } /* Escape */
+.mw-highlight .g { color: #f8f8f2 } /* Generic */
 .mw-highlight .k { color: #66d9ef } /* Keyword */
 .mw-highlight .l { color: #ae81ff } /* Literal */
 .mw-highlight .n { color: #f8f8f2 } /* Name */
-.mw-highlight .o { color: #f92672 } /* Operator */
+.mw-highlight .o { color: #ff4689 } /* Operator */
+.mw-highlight .x { color: #f8f8f2 } /* Other */
 .mw-highlight .p { color: #f8f8f2 } /* Punctuation */
-.mw-highlight .ch { color: #75715e } /* Comment.Hashbang */
-.mw-highlight .cm { color: #75715e } /* Comment.Multiline */
-.mw-highlight .cp { color: #75715e } /* Comment.Preproc */
-.mw-highlight .cpf { color: #75715e } /* Comment.PreprocFile */
-.mw-highlight .c1 { color: #75715e } /* Comment.Single */
-.mw-highlight .cs { color: #75715e } /* Comment.Special */
-.mw-highlight .gd { color: #f92672 } /* Generic.Deleted */
-.mw-highlight .ge { font-style: italic } /* Generic.Emph */
+.mw-highlight .ch { color: #959077 } /* Comment.Hashbang */
+.mw-highlight .cm { color: #959077 } /* Comment.Multiline */
+.mw-highlight .cp { color: #959077 } /* Comment.Preproc */
+.mw-highlight .cpf { color: #959077 } /* Comment.PreprocFile */
+.mw-highlight .c1 { color: #959077 } /* Comment.Single */
+.mw-highlight .cs { color: #959077 } /* Comment.Special */
+.mw-highlight .gd { color: #ff4689 } /* Generic.Deleted */
+.mw-highlight .ge { color: #f8f8f2; font-style: italic } /* Generic.Emph */
+.mw-highlight .ges { color: #f8f8f2; font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+.mw-highlight .gr { color: #f8f8f2 } /* Generic.Error */
+.mw-highlight .gh { color: #f8f8f2 } /* Generic.Heading */
 .mw-highlight .gi { color: #a6e22e } /* Generic.Inserted */
-.mw-highlight .gs { font-weight: bold } /* Generic.Strong */
-.mw-highlight .gu { color: #75715e } /* Generic.Subheading */
+.mw-highlight .go { color: #66d9ef } /* Generic.Output */
+.mw-highlight .gp { color: #ff4689; font-weight: bold } /* Generic.Prompt */
+.mw-highlight .gs { color: #f8f8f2; font-weight: bold } /* Generic.Strong */
+.mw-highlight .gu { color: #959077 } /* Generic.Subheading */
+.mw-highlight .gt { color: #f8f8f2 } /* Generic.Traceback */
 .mw-highlight .kc { color: #66d9ef } /* Keyword.Constant */
 .mw-highlight .kd { color: #66d9ef } /* Keyword.Declaration */
-.mw-highlight .kn { color: #f92672 } /* Keyword.Namespace */
+.mw-highlight .kn { color: #ff4689 } /* Keyword.Namespace */
 .mw-highlight .kp { color: #66d9ef } /* Keyword.Pseudo */
 .mw-highlight .kr { color: #66d9ef } /* Keyword.Reserved */
 .mw-highlight .kt { color: #66d9ef } /* Keyword.Type */
@@ -39,9 +53,10 @@
 .mw-highlight .nn { color: #f8f8f2 } /* Name.Namespace */
 .mw-highlight .nx { color: #a6e22e } /* Name.Other */
 .mw-highlight .py { color: #f8f8f2 } /* Name.Property */
-.mw-highlight .nt { color: #f92672 } /* Name.Tag */
+.mw-highlight .nt { color: #ff4689 } /* Name.Tag */
 .mw-highlight .nv { color: #f8f8f2 } /* Name.Variable */
-.mw-highlight .ow { color: #f92672 } /* Operator.Word */
+.mw-highlight .ow { color: #ff4689 } /* Operator.Word */
+.mw-highlight .pm { color: #f8f8f2 } /* Punctuation.Marker */
 .mw-highlight .w { color: #f8f8f2 } /* Text.Whitespace */
 .mw-highlight .mb { color: #ae81ff } /* Literal.Number.Bin */
 .mw-highlight .mf { color: #ae81ff } /* Literal.Number.Float */

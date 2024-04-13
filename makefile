@@ -11,19 +11,28 @@ STYLES += borland
 STYLES += bw
 STYLES += colorful
 STYLES += default
+STYLES += dracula
 STYLES += emacs
 STYLES += friendly
 STYLES += fruity
+STYLES += github-dark
+STYLES += inkpot
+STYLES += lightbulb
 STYLES += manni
+STYLES += material
 STYLES += monokai
 STYLES += murphy
 STYLES += native
+STYLES += nord
+STYLES += one-dark
 STYLES += pastie
 STYLES += perldoc
+STYLES += rrt
 STYLES += tango
 STYLES += trac
 STYLES += vim
 STYLES += vs
+STYLES += zenburn
 
 # a recursively-expanding variable, so that its value contains an actual function call to be
 # re-expanded under the control of foreach
